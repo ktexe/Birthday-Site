@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#0F3D3E, #F1F1F1);
+    color: #0F3D3E;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px 100F0F;
+}
+
+    h1 {
+        color: #E2DCC8; 
+    }
+
+#bff-img {
+    width: 400px;
+    border-radius: 50%;
+    border: 6px solid #E2DCC8;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #E2DCC8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #E2DCC8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid #E2DCC8;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media2.giphy.com/media/o75ajIFH0QnQC3nCeD/giphy.gif?cid=790b7611fef09096237afe2f1b2f6318a47c80cbbc580374&rid=giphy.gif&ct=g");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media4.giphy.com/media/daUOBsa1OztxC/giphy.gif?cid=ecf05e47779h9joohijn0rkayf0g7hvatygijzsznpw2c4zd&rid=giphy.gif&ct=g");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media4.giphy.com/media/d2Z9QYzA2aidiWn6/giphy.gif?cid=790b761110b8008ad77674fda2d297c3e2ab18ebf44f33e9&rid=giphy.gif&ct=g");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media4.giphy.com/media/iyA94154fd19riA5as/giphy.gif?cid=790b76112c1da0cf71426c269066f44e4d13d6948ca193e0&rid=giphy.gif&ct=g");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif?cid=790b7611aa1a2f22723004bfe96f320a86e65ab9dee417c8&rid=giphy.gif&ct=g");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #0F3D3E;
+}
+
+/* 
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
